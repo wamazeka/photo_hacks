@@ -5,9 +5,12 @@ Some little hacks for photos, configs or manuals
 ## FTPS for Sony A7C 
 
 Proxmox LXC container Alpine with VSFTPD
-- create user
-- create certificate
-- copy config
+
+- raw template Alpine container
+- `apk add vsftpd`
+- `adduser USERNAME`
+- create certificate with openssl
+- copy my config
 - setup server in camera
 
 I use NAS mount point in /mnt/nas, you can use something else, or just FTP client
