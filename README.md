@@ -12,4 +12,6 @@ Proxmox LXC container Alpine with VSFTPD
 
 I use NAS mount point in /mnt/nas, you can use something else, or just FTP client
 
+Main part -- ciphers and SSL config lines, because Sony using old and unsecure (but it is better than simple FTP) 
+
 Now, my Sony a7c copying files with 3 MB\s in local network
