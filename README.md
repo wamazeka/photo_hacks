@@ -11,7 +11,11 @@ Proxmox LXC container Alpine with VSFTPD
 - `adduser USERNAME`
 - create certificate with openssl
 - copy my config
+- `rc-update add vsftpd default`
 - setup server in camera
+
+can use `vsftpd /etc/vsftpd/vsftpd.conf` for checking errors in config. Maybe you have to clean from spaces or other symbols
+
 
 I use NAS mount point in /mnt/nas, you can use something else, or just FTP client
 
